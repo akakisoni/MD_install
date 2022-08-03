@@ -275,11 +275,11 @@ sudo apache2ctl restart
 sudo systemctl restart mariadb
 ### Скачиваем систему MajorDoMo с GitHab
 cd /usr/src
-sudo git clone https://github.com/akakisoni/MyMD.git
-#unzip majordomo.zip
+wget https://github.com/akakisoni/MyMD/raw/main/mjdm.zip
+unzip mjdm.zip
 
 ### Переносим систему в директорию WEB-сервера
-sudo cp -rp /usr/src/majordomo/* /var/www
+sudo cp -rp /usr/src/cd/* /var/www
 sudo cp -rp /usr/src/majordomo/.htaccess /var/www
 ### Создаем конфигурационный файл для системы
 sudo cp /var/www/config.php.sample /var/www/config.php
