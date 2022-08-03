@@ -345,9 +345,9 @@ wget -q http://localhost/modules/saverestore/update_iframe.php
 wget -q http://localhost/modules/market/update_iframe.php?mode2=update_all
 find . -name '*update_iframe*' -delete
 ### Базовая система установлена
-#cd /usr/src
-#rm majordomo.zip
-#rm majordomo
+cd /usr/src
+rm mjdm.zip
+rm majordomo
 
 echo "\033[1;32m Базовая система установлена \033[0m"
 echo "\033[1;32m Установить ситезатор голоса RHVoice (если нужно) - sh rhvoice.sh \033[0m"
