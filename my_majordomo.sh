@@ -352,8 +352,8 @@ find . -name '*update_iframe*' -delete
 cd /usr/src
 sudo rm mjdm.zip
 echo "\033[1;32m Удален архив mjdm.zip \033[0m"
-sudo rm -r MD_install
-echo "\033[1;32m Удалена папка MD_install \033[0m"
+#sudo rm -r MD_install
+#echo "\033[1;32m Удалена папка MD_install \033[0m"
 sudo rm -r majordomo
 echo "\033[1;32m Удалена папка majordomo \033[0m"
 
