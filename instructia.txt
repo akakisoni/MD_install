@@ -1,7 +1,7 @@
 git clone https://github.com/akakisoni/MD_install.git
 cd MD_install
 sh majordomo.sh && sh rhvoice.sh && sh vlc.sh
-sh majordomo.sh && sh rhvoice.sh && sh vlc.sh && sh mosquitto.sh
+sh my_majordomo.sh && sh rhvoice.sh && sh vlc.sh && sh mosquitto.sh
 
 sudo su
 wget https://clck.ru/NGNzt 
