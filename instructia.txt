@@ -13,3 +13,16 @@ sh vlc.sh
 ИЛИ
 sh my_majordomo.sh && sh rhvoice.sh && sh vlc.sh
 
+9.2 Правим основной конфиг.
+
+nano /var/www/config.php
+
+
+
+Define('DB_HOST', 'localhost');
+
+Define('DB_NAME', 'db_terminal');
+
+Define('DB_USER', 'root');
+
+Define('DB_PASSWORD', 'inkliminkli');
